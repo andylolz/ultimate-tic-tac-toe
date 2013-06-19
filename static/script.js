@@ -1,3 +1,10 @@
+/**
+ * By @andylolz
+ * https://github.com/andylolz/ultimate-tic-tac-toe
+ *
+ * code based heavily on:
+ * https://github.com/josephwegner/node-tac-toe
+ */
 $(document).ready(function() {
     // click listener
     $(".little_table").find("td:not(.filled)").click(function() {
@@ -62,7 +69,7 @@ $(document).ready(function() {
             } else {
                 // switch turns
                 $("#turn").removeClass(colour).addClass((colour === "red") ? "blue" : "red");
-                $("#turn").text(((colour === "red") ? "Blue" : "Red") + "'s Turn!");
+                $("#turn").text(((colour === "red") ? "Blue" : "Red") + "’s turn…");
             }
         }
     });
