@@ -2,7 +2,7 @@
  * By @andylolz
  * https://github.com/andylolz/ultimate-tic-tac-toe
  *
- * code based heavily on:
+ * code heavily based upon:
  * https://github.com/josephwegner/node-tac-toe
  */
 $(document).ready(function() {
