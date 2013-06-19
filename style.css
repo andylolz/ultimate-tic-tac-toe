@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url("/bg.png");
+    background-image: url("bg.png");
 }
 
 .little_table.live,

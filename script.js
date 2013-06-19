@@ -69,7 +69,7 @@ $(document).ready(function() {
             } else {
                 // switch turns
                 $("#turn").removeClass(colour).addClass((colour === "red") ? "blue" : "red");
-                $("#turn").text(((colour === "red") ? "Blue" : "Red") + "’s turn…");
+                $("#turn").html(((colour === "red") ? "Blue" : "Red") + "&rsquo;s turn&hellip;");
             }
         }
     });
