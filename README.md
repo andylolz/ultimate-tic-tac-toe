@@ -4,6 +4,7 @@
 
 node.js implementation of the game described on
 [Ben Orlin’s blog](http://mathwithbaddrawings.com/2013/06/16/ultimate-tic-tac-toe/).
+Code derived from [this tic-tac-toe implementation](https://github.com/josephwegner/node-tac-toe).
 
 ## Installation
 
