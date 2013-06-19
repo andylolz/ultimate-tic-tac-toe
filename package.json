@@ -1,6 +1,11 @@
 {
-  "name": "node-tac-toe",
-  "version": "1.0.0",
+  "name": "ultimate-tic-tac-toe",
+  "description": "Tic tac toe, but not as we know it",
+  "version": "0.0.1",
   "dependencies": {
+    "express": "3.2.6",
+    "consolidate": "0.9.1",
+    "swig": "0.14.0",
+    "socket.io": "0.9.16"
   }
 }

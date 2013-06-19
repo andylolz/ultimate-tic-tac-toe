@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Ultimate Tic Tac Toe</title>
+<link rel="stylesheet" type="text/css" href="/style.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="/script.js"></script>
+</head>
+<body>
+    <table class="big_table live">
+        {% set foo = [1,2,3] %}
+        {% for big_row in foo %}
+        <tr class="{{ big_row }}">
+            {% for big_col in foo %}
+            <td class="{{ big_col }}">
+                <table class="little_table col-{{ big_col }} row-{{ big_row }}">
+                    {% for little_row in foo %}
+                    <tr class="{{ little_row }}">
+                        {% for little_col in foo %}
+                        <td class="{{ little_col }}"></td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </table>
+            </td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+    <div id="turn" class="blue">
+        Blue's Turn
+    </div>
+    <button id="newGame" onClick="/">New Game</button>
+</body>
